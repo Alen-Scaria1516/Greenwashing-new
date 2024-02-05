@@ -7,7 +7,8 @@ export default defineConfig({
     rollupOptions: {
       external: [
         "@safe-globalThis/safe-ethers-adapters",
-        "@safe-globalThis/safe-core-sdk"
+        "@safe-globalThis/safe-core-sdk",
+        "@safe-globalThis/safe-ethers-lib",
       ],
     },
   },
